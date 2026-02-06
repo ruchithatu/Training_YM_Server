@@ -1,6 +1,6 @@
 import db from "../Db/db.js";
 
-const table="users";
+const table="user";
 
 class UserModel{
     static async createUserModel({name,email,password}){
